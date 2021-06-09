@@ -94,7 +94,7 @@ class dataSet():
 
 
 
-globalPath = 'C:\\2021-son\\AnimalProject\\dataset\\'
+globalPath = 'C:\\Users\\PycharmProjects\\DataProcessing\\'
 ds = dataSet(globalPath)
 train_x, train_y, test_x, test_y = ds.load_data(128, 0.8)
 # print(train_x.shape)
